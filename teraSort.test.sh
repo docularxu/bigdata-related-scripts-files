@@ -2,23 +2,24 @@
 
 # teraSort.test.sh
 
-HDFS_ROOT_DIR=hdfs://d05-001.bigtop.deploy:8020
+HDFS_ROOT_DIR=hdfs://thx2-04:9000
 INPUT_DIR=$HDFS_ROOT_DIR"/Terasort-Input"
 OUTPUT_DIR=$HDFS_ROOT_DIR"/Terasort-Output"
 VALIDATE_DIR=$HDFS_ROOT_DIR"/Terasort-Validate"
 VALIDATE_RESULTS_FILES=$VALIDATE_DIR"/*"
-LOCAL_VALIDATE_DIR=/home/guodong/teraValidate_results-0427
+LOCAL_VALIDATE_DIR=/home/hadoop/teraValidate_results-05090628
 
 echo $INPUT_DIR
 echo $OUTPUT_DIR
 echo $VALIDATE_RESULTS_FILES
 
-JAR_FILENAME=/usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples-2.8.5.jar
+# JAR_FILENAME=/usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples-2.8.5.jar
+JAR_FILENAME=/home/hadoop/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.6.jar
 N_MAP_TASKS=858
 N_REDUCE_TASKS=143
 SIZE=10737418240
 
-N_LOOPS=100
+N_LOOPS=1
 
 test_once() {
  hadoop fs -rm -r $INPUT_DIR
