@@ -21,7 +21,7 @@
     </property>
     <property>
         <name>yarn.resourcemanager.hostname</name>
-        <value>192.168.10.225</value>
+        <value>thx2-03</value>
     </property>
     <property>
         <name>yarn.nodemanager.resource.cpu-vcores</name>
@@ -50,7 +50,7 @@
 
     <property>
 	    <name>yarn.log.server.url</name>
-	    <value>http://192.168.10.225:19888/history/logs</value>
+	    <value>http://thx2-03:19888/history/logs</value>
     </property>
 
    <property>
@@ -70,7 +70,7 @@
 
     <property>
         <name>yarn.nodemanager.log-dirs</name>
-        <value>/mnt/sdb1/yarn-userlogs,/mnt/sdc1/yarn-userlogs,/mnt/sdd1/yarn-userlogs,/mnt/sde1/yarn-userlogs,/mnt/sdf1/yarn-userlogs,/mnt/sdg1/yarn-userlogs,/mnt/sdh1/yarn-userlogs,/mnt/sdi1/yarn-userlogs,/mnt/sdj1/yarn-userlogs,/mnt/sdk1/yarn-userlogs,/mnt/sdl1/yarn-userlogs</value>
+	<value>/mnt/sda1/yarn-userlogs</value>
    </property>
 
 </configuration>

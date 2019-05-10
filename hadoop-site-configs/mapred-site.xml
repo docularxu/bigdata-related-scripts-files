@@ -24,12 +24,12 @@
 
 <property>
 	<name>mapreduce.jobhistory.address </name>
-	<value>192.168.10.225:10020</value>
+	<value>thx2-03:10020</value>
 </property>
 
 <property>
 	<name>mapreduce.jobhistory.webapp.address</name>
-	<value>192.168.10.225:19888</value>
+	<value>thx2-03:19888</value>
 </property>
 
 <property>

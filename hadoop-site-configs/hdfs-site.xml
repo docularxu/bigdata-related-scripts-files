@@ -24,7 +24,7 @@
  
  <property>  
 	<name>dfs.datanode.data.dir</name>  
-	<value>/mnt/sdb1/hadoop,/mnt/sdc1/hadoop,/mnt/sdd1/hadoop,/mnt/sde1/hadoop,/mnt/sdf1/hadoop,/mnt/sdg1/hadoop,/mnt/sdh1/hadoop,/mnt/sdi1/hadoop,/mnt/sdj1/hadoop,/mnt/sdk1/hadoop,/mnt/sdl1/hadoop</value>
+	<value>/mnt/sda1/hadoop,/mnt/sdb1/hadoop,/mnt/sdc1/hadoop</value>
  </property>
 
 <property>
@@ -35,7 +35,7 @@
 
  <property>  
         <name>dfs.namenode.name.dir</name>  
-        <value>/mnt/sdb1/namenode</value>
+        <value>/mnt/sda1/namenode</value>
 </property>
 
 

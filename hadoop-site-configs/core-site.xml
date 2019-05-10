@@ -19,7 +19,7 @@
 <configuration>
 	<property>
         <name>fs.defaultFS</name>
-        <value>hdfs://192.168.10.225:9000</value>
+        <value>hdfs://thx2-03:9000</value>
     </property>
 
     <property>
@@ -34,7 +34,6 @@
 
 <property>
         <name>hadoop.tmp.dir</name>
-	<value>/mnt/sdb1/hadoop-tmp,/mnt/sdc1/hadoop-tmp,/mnt/sdd1/hadoop-tmp,/mnt/sde1/hadoop-tmp,/mnt/sdf1/hadoop-tmp,/mnt/sdg1/hadoop-tmp,/mnt/sdh1/hadoop-tmp,/mnt/sdi1/hadoop-tmp,/mnt/sdj1/hadoop-tmp,/mnt/sdk1/hadoop-tmp,/mnt/sdl1/hadoop-tmp</value>
-
+	<value>/mnt/sda1/hadoop-tmp</value>
 </property>
 </configuration>
