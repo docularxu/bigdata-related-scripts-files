@@ -14,9 +14,9 @@ echo $OUTPUT_DIR
 echo $VALIDATE_RESULTS_FILES
 
 JAR_FILENAME=/home/hadoop/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.8.5.jar
-N_MAP_TASKS=858
-N_REDUCE_TASKS=143
-SIZE=10737418240
+N_MAP_TASKS=400
+N_REDUCE_TASKS=70
+SIZE=536870912
 
 N_LOOPS=1
 

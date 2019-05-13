@@ -39,7 +39,7 @@
 
   <property>
     <name>mapreduce.reduce.java.opts</name>
-    <value>-Xmx3072m</value>
+    <value>-Xmx400m -XX:MetaspaceSize=64m</value>
   </property>
 
 <property>
@@ -49,12 +49,28 @@
 
   <property>
     <name>mapreduce.map.java.opts</name>
-    <value>-Xmx3072m</value>
+    <value>-Xmx400m -XX:MetaspaceSize=64m</value>
   </property>
 
   <property>
     <name>mapreduce.output.fileoutputformat.compress.type</name>
     <value>BLOCK</value>
   </property>
+
+  <property>
+    <name>mapreduce.reduce.shuffle.parallelcopies</name>
+    <value>1</value>
+  </property>
+
+  <property>
+    <name>mapreduce.task.io.sort.mb</name>
+    <value>200</value>
+  </property>
+
+  <property>
+    <name>mapreduce.job.reduce.slowstart.completedmaps</name>
+    <value>1</value>
+  </property>
+
 
 </configuration>
